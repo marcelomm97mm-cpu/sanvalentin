@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para Paz ❤️</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#ff758c,#ffb3c6);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.container{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+    width:90%;
+    max-width:350px;
+}
+
+h1{
+    color:#ff4d6d;
+}
+
+button{
+    border:none;
+    border-radius:12px;
+    padding:15px 25px;
+    font-size:18px;
+    margin:10px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.si{
+    background:#ff4d6d;
+    color:white;
+}
+
+.no{
+    background:#6c757d;
+    color:white;
+    position:absolute;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container" id="contenido">
+    <h1>¿Paz, quieres ser mi San Valentín? ❤️</h1>
+
+    <button class="si" id="btnSi" onclick="respuestaSi()">SI 💘</button>
+    <button class="no" id="btnNo">NO 😢</button>
+</div>
+
+<script>
+let escala = 1;
+
+const btnNo = document.getElementById("btnNo");
+const btnSi = document.getElementById("btnSi");
+
+btnNo.addEven
